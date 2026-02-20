@@ -44,7 +44,7 @@ function UserList(){
         <ul className = "flex flex-wrap gap-4">
             {/* ここで users を map して表示する */}
             {users.map((user: any) => (
-                <li key ={user.id} className = "bg-white p-4 rounded-lg shadow-md">
+                <li key ={user.id} className = "bg-white p-4 rounded-lg shadow-md font-bold text-gray-800">
                     {user.name}
                 </li>
             ))}
