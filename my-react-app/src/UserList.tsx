@@ -41,10 +41,10 @@ function UserList(){
 
     // 3. 正常にデータが取得できた時の表示
     return (
-        <ul>
+        <ul className = "flex flex-wrap gap-4">
             {/* ここで users を map して表示する */}
             {users.map((user: any) => (
-                <li key ={user.id}>
+                <li key ={user.id} className = "bg-white p-4 rounded-lg shadow-md">
                     {user.name}
                 </li>
             ))}
