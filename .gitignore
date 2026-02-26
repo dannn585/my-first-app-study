@@ -1,0 +1,9 @@
+# GitHubに上げたくない（手元にだけ残す）もの
+API-practice/
+github-practice/
+jsts-practice/
+my-react-app-study/
+python-practice/
+*.js
+*.ts
+*.ipynb
